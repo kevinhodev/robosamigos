@@ -41,7 +41,7 @@ class App extends React.Component
             <h1 className = "tc"> Carregando... </h1> :
             (
                 <div className = "tc">
-                    <h1 className = "f2"> Amigos Robos </h1>
+                    <h1 className = "f2"> Amigos Robôs </h1>
                     <CaixaDePesquisa aoAlterarOConteúdoDaCaixaDePesquisa = { this.aoAlterarOConteúdoDaCaixaDePesquisa }/>
                     <Scroll>
                         <ErrorBoundry>
